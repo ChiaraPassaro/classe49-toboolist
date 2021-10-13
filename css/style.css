@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #bfc0c1;
+}
+
+/* common */
+.v-align-middle {
+  vertical-align: middle;
+}
+.btn {
+  padding: 0.5em;
+  border: 1px solid lightgrey;
+  border-radius: 0.3em;
+  background-color: white;
+  font-size: 1em;
+  color: black;
+}
+.btn-lightblue {
+  background-color: #14AAF5;
+  border-color: #14AAF5;
+  color: white;
+}
+.btn-white {
+  color: lightgrey;
+}
+.badge {
+  display: inline-block;
+  padding: 0.5em;
+  border-radius: 1.6em;
+  color: white;
+  background-color: 
+  #14AAF5;
+}
+.goals {
+  background-color: #AB5DE6;
+}
+.recruiting {
+  background-color: #32C7AD;
+}
+.mobile {
+  background-color: #FF9B00;
+}
+
+/* header */
+header {
+  background-color: white;
+  height: 80px;
+  padding: 0 20px;
+  line-height: 80px;
+}
+
+.logo-text {
+  display: inline-block;
+  font-size: 2.3em;
+}
+
+/* main */
+main {
+  width: 80%;
+  margin: 2em auto;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.main-header {
+  padding: 10px 20px 5px;
+  border-bottom: 2px solid lightgrey;
+}
+.content {
+  padding: 20px;
+}
+.todo-list {
+  list-style-type: none;
+}
+.todo-list li {
+  margin: 1em 0;
+}
+/* .type-todo-list {
+  list-style-type: none;
+} */
+.type-todo-list-item h2 {
+  display: inline-block;
+  vertical-align: middle;
+}
+.check {
+  display: inline-block;
+  border: 1px solid green;
+  border-radius: 50%;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+  color: green;
+}
+.unchecked {
+  border-color: red;
+  color: red;
+}
